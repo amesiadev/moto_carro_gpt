@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acarreos en Moto Carro | Vaisan 246cc</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <span class="badge">Moto carro Vaisan 246cc</span>
+        <h1>Acarreos rápidos, seguros y económicos</h1>
+        <p>
+          Servicio de acarreos, retiro de escombros y traslado de equipos para empresas y particulares.
+          Capacidad de carga hasta <strong>850 kg</strong>.
+        </p>
+
+        <div class="actions">
+          <a href="#solicitud" class="btn-primary">Solicitar acarreo</a>
+          <a href="https://wa.me/573001112233" class="btn-secondary">WhatsApp directo</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="assets/motocarro.png" alt="Moto carro Vaisan 246cc para acarreos" />
+      </div>
+    </div>
+  </header>
+
+  <section class="services">
+    <h2>Servicios disponibles</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Acarreos</h3>
+        <p>Traslado de mercancía, muebles, cajas, materiales y carga liviana o mediana.</p>
+      </div>
+
+      <div class="card">
+        <h3>Botar escombros</h3>
+        <p>Retiro de residuos de remodelación, construcción, limpieza o adecuaciones.</p>
+      </div>
+
+      <div class="card">
+        <h3>Traslado de equipos</h3>
+        <p>Servicio para negocios, oficinas, locales, talleres y particulares.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div>
+      <strong>850 kg</strong>
+      <span>Capacidad de carga</span>
+    </div>
+    <div>
+      <strong>246 cc</strong>
+      <span>Potencia de trabajo</span>
+    </div>
+    <div>
+      <strong>Empresas</strong>
+      <span>y particulares</span>
+    </div>
+  </section>
+
+  <section id="solicitud" class="form-section">
+    <div class="form-box">
+      <h2>Solicita tu servicio</h2>
+      <p>Completa los datos y te atenderemos por WhatsApp.</p>
+
+      <form id="quoteForm">
+        <input type="text" id="nombre" placeholder="Nombre completo" required />
+        <input type="text" id="direccion" placeholder="Dirección del servicio" required />
+        <input type="tel" id="telefono" placeholder="Teléfono" required />
+
+        <select id="servicio" required>
+          <option value="">Selecciona el servicio</option>
+          <option value="Acarreo">Acarreo</option>
+          <option value="Botar escombros">Botar escombros</option>
+          <option value="Traslado de equipos">Traslado de equipos</option>
+          <option value="Otro servicio">Otro servicio</option>
+        </select>
+
+        <textarea id="detalle" placeholder="Describe brevemente qué necesitas trasladar"></textarea>
+
+        <button type="submit">Enviar solicitud por WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>Servicio de acarreos en moto carro · Atención por WhatsApp</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
